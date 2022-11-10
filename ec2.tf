@@ -29,6 +29,7 @@ module "vpc" {
 
   # VPC Basic Details
   name = "vpc-dev"
+
   cidr = "192.168.0.0/16"   
   azs                 = ["us-east-1a"]
   private_subnets     = ["192.168.1.0/24"]
